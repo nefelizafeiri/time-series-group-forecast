@@ -29,12 +29,23 @@ but didn't beat the simpler average.
 - `statsmodels` — ARIMA, ARIMAX, decomposition
 - `matplotlib` — visualization
 
+## Data
+
+The notebook expects a `train.csv` in the repo root (class-provided; not committed
+here). Place it locally before running.
+
 ## Run It
 
 ```bash
-pip install pandas numpy statsmodels matplotlib
+pip install -r requirements.txt
 jupyter notebook TimeSeriesFinalcode.ipynb
 ```
+
+### Note: originally developed in Google Colab
+
+The notebook uses `from google.colab import files` for data uploads. To run
+locally, replace `files.upload()` calls with `pd.read_csv("train.csv")` after
+placing the input data in the repo root.
 
 ## Files
 

@@ -1,20 +1,9 @@
-# Time Series Group Forecast
+# Time Series Forecasting
 
-> ⚠️ **Repo visibility note** — this is a **group project**. It's private until
-> all teammates have approved public release. Please do not flip to public
-> without explicit OK from Rachel, Nicole, and MJ.
-
-Group forecasting project for an MSBA Time Series class. We compared classical
-and hybrid models on a monthly economic time series (with `layoffs`, `quits`,
+Forecasting project from an MSBA Time Series class. Compared classical and
+hybrid models on a monthly economic time series (with `layoffs`, `quits`,
 `sales`, and `wages` as candidate exogenous regressors) to find the most
 reliable forecast.
-
-## Team
-
-- Rachel Schultz
-- Nefeli Zafeiri
-- Nicole Niewiadomski
-- MJ Fiscina
 
 ## Models Compared
 
